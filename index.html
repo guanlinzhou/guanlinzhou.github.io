@@ -16,21 +16,21 @@
       padding-left: 20px;
       padding-right
     }
-    a {
+    .nav-item {
       font-family: 'Lato', sans serif;
       font-size: 18px
     }
-    a:link {
+    .nav-item:link {
     text-decoration: none;
     color: #bababa;
     position: relative;
-    }
+    item}
 
-    a:visited {
+    .nav-item:visited {
         color: #bababa;
     }
 
-    a:after {
+    .nav-item:after {
       content: '';
       position: absolute;
       bottom: 0;
@@ -64,6 +64,8 @@
   	#logo {
 		position: relative;
 	    top:-30px;
+		height: 100px;
+		width: 100px;
 	}
 	#main-pane {
 		padding-left:20px;
@@ -90,7 +92,7 @@
 <body>
   <div class="page-block">
     <section class="header">
-      <div id="nav-wrapper" align="right">
+<div id="nav-wrapper" align="right">
         <nav class="nav">
           <a href="/" class="nav-item">
             Projects
