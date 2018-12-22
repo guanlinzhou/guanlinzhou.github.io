@@ -87,6 +87,49 @@
 	h1 {
 		font-size: 50px
 	}
+	.modal {
+		  height: 180px;
+		  width: 230px;
+		  margin-left: 20px;
+		  opacity:1.0;
+		  font-family: "Montserrat";
+		  box-shadow: 10px 10px 5px grey;
+		  border-style: solid;
+   		  border-width: 7px;
+   		  border-left-width: 7px;
+   		  border-right-width: 7px;
+   		  border-color: #C8C8C8;	  
+		  text-decoration:none;
+		  margin-right: 20px;
+		  padding-bottom: 20px;
+	}
+	.modal:hover {
+		  opacity:0.7;
+		  
+	}
+	  #codedoor{ 
+		  opacity:1.0;
+		  color:black;	
+ 		  text-align: center;
+		  text-decoration: none;
+		  margins:auto;
+	  }
+	  #codedoor img{
+		  top: 50%;
+		  transform: translateY(40%);
+		  display: block;
+		  margin: auto;
+		  width=100%;
+		  border:0
+	  }
+	  #codedoor h2{
+		  display:block;
+		  transform:translateY(30px);
+	  }
+	  #bettercloud{
+		  align-self: auto;
+	  }
+	  
   </style>
 </head>
 <body>
@@ -109,7 +152,7 @@
 		  </nav>
 		</div>
 	  <div id="logo">
-		  <a href="/about">
+		  <a href="/">
 		  <img src="assets/logo.jpg" alt="[WZ]" height="100" width="100" align="">
 		  </a>
 	  </div>
@@ -129,10 +172,23 @@
 			  Here's some of my work:
 		  </h2>
 	  </div>
-	<div class="modals">
-		<div id="codedoor">
-			
-		</div>
+	<div class="grid">
+		<a href="codedoor.html" class="modal-link">
+			<div class="modal">
+				<div id="codedoor" style="text-align: center">
+					<img src="assets/codedoor.png" alt="codedoor" height=80px style="border-width: 0px;" />
+					<h2> codedoor </h2>
+				</div>
+			</div>
+			</a>
+		<a href="bettercloud.html" class="modal-link">
+			<div class="modal">
+				<div id="bettercloud" style="text-align: center">
+						<img src="assets/bettercloud.png" alt="bettercloud" width=160px>
+				</div>
+			</div>
+		</a>
+	</div>
 	</div>
 		  
 
