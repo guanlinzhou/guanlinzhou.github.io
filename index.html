@@ -12,7 +12,7 @@
     }
     a {
       font-family: 'Lato', sans serif;
-      font-size: 25px
+      font-size: 18px
     }
     a:link {
     text-decoration: none;
@@ -43,9 +43,39 @@
         width: 100%;
     }
 
-    a:active {
+    a:active 
         color: black;
     }
+	#nav-wrapper {
+		margin-top: 123%;
+		padding-top: 100px
+  	}
+  	.nav-item {
+		margin-top: 100px;
+		margin-right:20px;
+  	}
+  	#right-logo {
+		margin-right:20px;
+	}
+	#main-pane {
+		padding-left:20px;
+		font-family: "Montserrat"
+	}
+	#intro{
+		margin-bottom: -20px; 
+	}
+	#name{
+		text-decoration: none;
+  		color: black;
+ 		text-shadow: -.25px -.25px 0 transparent, .25px .25px transparent;
+ 		margin: 0 4px; 
+	}
+	#name:hover{
+		text-shadow: -.50px -.50px 0 #39CCCC, .50px .50px #39CCCC;
+	}
+	h1 {
+		font-size: 40px
+	}
   </style>
 </head>
 <body>
@@ -54,18 +84,36 @@
       <div id="nav-wrapper">
         <nav class="nav">
           <a href="/" class="nav-item">
-            "Projects"
-            ::after
+            Projects
           </a>
           <a href="/resume" class="nav-item">
-            "Resume"
-            ::after
+            Resume
           </a>
           <a href="/contact" class="nav-item">
-            "Contact Me"
-            ::after
+            Contact
           </a>
           <a href='/about' class="nav-item">
-            "About"
-            ::after
+            About
           </a>
+		</div>
+	  <div id='right-logo'>
+		  <img src="assets/logo.png" alt="[WZ]" height="100" width="100" align="right">
+	  </div>
+	  <div id="main-pane">
+		 <div id='intro'>
+		  <h1> 
+			  Hi, I'm <span id="name" style="color:#39CCCC">William</span>.
+		  </h1>
+		 </div>
+		  <h4>
+			  - software developer <br>
+			  - consultant <br>
+			  - shower singer <br>
+			  - student @ UC Berkeley
+		  </h4>
+		  <h2>
+			  Here's some of my work:
+		  </h2>
+	  </div>
+		  
+
