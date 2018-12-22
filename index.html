@@ -54,13 +54,14 @@
     }
 	#nav-wrapper {
 		margin-top: 123%;
-		padding-top: 100px
+		padding-top: 100px;
+		align:right;
   	}
   	.nav-item {
 		margin-top: 100px;
 		margin-right:20px;
   	}
-  	#right-logo {
+  	#logo {
 		position: relative;
 	    top:-30px;
 	}
@@ -69,6 +70,7 @@
 		font-family: "Montserrat"
 	}
 	#intro{
+		margin-top:-40px;
 		margin-bottom: -20px; 
 	}
 	#name{
@@ -88,12 +90,12 @@
 <body>
   <div class="page-block">
     <section class="header">
-      <div id="nav-wrapper">
+      <div id="nav-wrapper" align="right">
         <nav class="nav">
           <a href="/" class="nav-item">
             Projects
           </a>
-          <a href="/resume" class="nav-item">
+          <a href="/assets/ResumeLatex.pdf" target="_blank" class="nav-item">
             Resume
           </a>
           <a href="/contact" class="nav-item">
@@ -104,9 +106,9 @@
           </a>
 		  </nav>
 		</div>
-	  <div id="right-logo">
+	  <div id="logo">
 		  <a href="/about">
-		  <img src="assets/logo.jpg" alt="[WZ]" height="100" width="100" align="right">
+		  <img src="assets/logo.jpg" alt="[WZ]" height="100" width="100" align="">
 		  </a>
 	  </div>
 	  <div id="main-pane">
@@ -115,15 +117,20 @@
 			  Hi, I'm <span id="name" style="color:#39CCCC">William</span>.
 		  </h1>
 		 </div>
-		  <h4>
+		  <h3>
 			  - software developer <br>
 			  - consultant <br>
 			  - shower singer <br>
 			  - student @ UC Berkeley
-		  </h4>
+		  </h3>
 		  <h2>
 			  Here's some of my work:
 		  </h2>
 	  </div>
+	<div class="modals">
+		<div id="codedoor">
+			
+		</div>
+	</div>
 		  
 
